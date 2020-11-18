@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   <title>Paint</title>
+   <link rel="stylesheet" href="assets/css/layout.css">
+   <link rel="stylesheet" href="assets/css/style.css">
+   <link rel="stylesheet" href="assets/css/paint.css">
+</head>
+<body>
+<header class="header">
+	<a href="index.html" class="logo">
+		<img src="public/images/logo1.png." alt="logo" />
+	</a>
+	<p>Header...</p>
+</header>
+
+<div class="container">
+   <main class="center column">
+        <article>
+            <h1>Paint</h1>
+            <canvas id="draw" width="490" height="220">Ваш браузер не поддерживает технологию canvas</canvas>
+            <div class="canvasControls">
+                <div class="button-like">Clear
+				<input type="color" id="color">
+				</div>
+                <div class="range">
+                    <input type="range" value="5" min="1" max="10" id="size"> <span id="sizeIndicator">5</span>
+                </div>
+            </div>
+        </article>
+    </main>
+   <nav class="left column">
+       <h3>Left heading</h3>
+       <ul>
+		   <li><a href="index.html">Heading</a></li>
+           <li><a href="contact.html">Contact</a></li>
+           <li><a href="about.html">About</a></li>
+		   <li><a href="slider.html">Slider</a></li>
+		   <li><a href="media.html">Media</a></li>
+		   <li><a href="table.html">Table</a></li>
+		   <li><a href="paint.html">Paint</a></li>
+       </ul>
+       <h3>Left heading</h3>
+       <ul>
+		   <li><a href="index.html">Heading</a></li>
+           <li><a href="contact.html">Contact</a></li>
+           <li><a href="about.html">About</a></li>
+		   <li><a href="slider.html">Slider</a></li>
+		   <li><a href="media.html">Media</a></li>
+		   <li><a href="table.html">Table</a></li>
+		   <li><a href="paint.html">Paint</a></li>
+       </ul>
+   </nav>
+   <div class="right column">
+       <h3>Right heading</h3>
+       <p></p>
+   </div>
+</div>
+<div class="footer-wrapper">
+   <footer class="footer">
+   <a href="index.html" class="logo">
+		<img src="public/images/logo1.png." alt="logo" />
+	</a>
+   <p>Footer...</p>
+   </footer>
+   	<script src="assets/js/paint.js"></script>
+</div>
+</body>
+</html>
